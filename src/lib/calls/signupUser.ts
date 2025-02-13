@@ -1,7 +1,6 @@
-"use server";
-import { supabase } from "@/lib/supabase1";
 import { type User as AuthUser } from "@supabase/supabase-js";
 import { CallError } from "./isCallError";
+import supabase from "../supabase/client";
 
 export default async function signUpUser(
   email: string,
