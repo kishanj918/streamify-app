@@ -1,4 +1,3 @@
-import LogoutButton from "./LogoutButton";
-export default async function Home() {
-  return <LogoutButton />;
+export default async function Page() {
+  return <h1>Overview</h1>;
 }
